@@ -1,0 +1,23 @@
+{
+  "name": "revpulse-health-rcm-platform",
+  "version": "2.0.0",
+  "private": true,
+  "description": "RevPulse Health \u2014 Healthcare Revenue Cycle Management, Medical Billing SaaS & Financial Consulting Platform",
+  "scripts": {
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "next": "^15.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
